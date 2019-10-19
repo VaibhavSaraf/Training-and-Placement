@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page_3_admin"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/viewstudent"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#4e51a6"
+        android:textColor="#ffff"
+        android:text="View students"
+        android:onClick="btn_viewstudents"/>
+
+
+
+
+        <Button
+            android:id="@+id/viewcompany"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:textColor="#ffff"
+            android:backgroundTint="#4e51a6"
+            android:text="company"
+            android:textAlignment="center"
+            android:layout_alignParentRight="true"
+            android:onClick="btn_viewcompany"/>
+
+    <Button
+        android:id="@+id/AddNews"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#4e51a6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add NEWS"
+        android:onClick="btn_addnews"/>
+</LinearLayout>

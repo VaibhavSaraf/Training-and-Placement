@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aadhar"
+    android:paddingLeft="5dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="206dp"
+        android:layout_height="157dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/docu" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/select_aadhar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Select Aadhar Card" />
+
+        <Button
+            android:id="@+id/upload_aadhar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="30dp"
+            android:text="Upload Aadhar Card" />
+
+        <Button
+            android:id="@+id/select_passport"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="90dp"
+            android:text="Select Passport" />
+
+        <Button
+            android:id="@+id/upload_passport"
+            android:layout_width="180dp"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="90dp"
+            android:text="Upload Passport" />
+
+        <Button
+            android:id="@+id/select_resume"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:text="Select Resume" />
+
+        <Button
+            android:id="@+id/upload_resume"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            android:text="Upload Resume" />
+
+        <Button
+            android:id="@+id/select_pan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="210dp"
+            android:text="Select Pancard" />
+
+
+        <Button
+            android:id="@+id/upload_pan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:backgroundTint="#4e51a6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="210dp"
+            android:text="Upload PanCard" />
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="299dp"
+            android:text="No File is Selected" />
+
+        <Button
+            android:id="@+id/etsignin"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#4e51a6"
+            android:gravity="center"
+            android:text="SIGNIN"
+            android:textColor="#ffff" />
+    </RelativeLayout>
+
+
+</LinearLayout>

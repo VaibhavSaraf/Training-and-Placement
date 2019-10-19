@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".news"
+    android:paddingLeft="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="205dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="30dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/news" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="News Related to:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/request_new_related_to"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:paddingLeft="14dp"/>
+
+
+    <TextView
+        android:id="@+id/request_new_highlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/request_new"
+        android:paddingLeft="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#4e51a6"
+        android:onClick="ptk"
+
+        android:textColor="#ffff"
+        android:text="Apply" />
+
+</LinearLayout>
